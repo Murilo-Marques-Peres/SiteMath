@@ -67,8 +67,8 @@ $(function(){
     
     
 
-    $("button").css("width","250px").css("height","40px").css("font-size","20px").css("background","linear-gradient(blue, black)");
-    $("button").css("color","gray").css("display","block").css("margin-bottom","10px").css("cursor","pointer");
+    $(".botao_principal").css("width","250px").css("height","40px").css("font-size","20px").css("background","linear-gradient(blue, black)");
+    $(".botao_principal").css("color","gray").css("display","block").css("margin-bottom","10px").css("cursor","pointer");
     $("#btn_trigonometria").css("margin-top","30px");
     $(".p_escolhaMath").css("font-size","30px").css("color","white").css("font-weight","bold").css("text-align","center");
     funcaoAbrirTrigonometria();

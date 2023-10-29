@@ -13,3 +13,70 @@ body{
     background-color: darkgr;    
 }
 */
+.trianguloRetangulo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 500px;
+    background: linear-gradient(purple, gray);
+}
+#H{
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 30px);
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    background: linear-gradient(gray, white);
+    font-size: 16px;
+    line-height: 145%;
+}
+#CO{
+    position: absolute;
+    left: 20px;
+    top: calc(50% + 25px);
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    background-color: purple;
+    background: linear-gradient(gray, white);
+    font-size: 16px;
+    line-height: 145%;
+}
+#CA{
+    position: absolute;
+    left: calc(50% - 15px);
+    bottom: 30px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    background-color: purple;
+    background: linear-gradient(gray, white);
+    font-size: 16px;
+    line-height: 145%;
+}
+.trianguloRetangulo button#btnCalcular{
+    position: absolute;
+    left: calc(50% - 125px);
+    top: 15px;
+    height: 40px;
+    width: 250px;
+    background: linear-gradient(blue, black); 
+    color: white;
+    font-size: 20px;
+}
+textarea{
+    resize: none;
+}
+button{
+    cursor: pointer;
+}
+.imgTrianguloRetangulo{
+    height: 400px;
+    width: 500px;
+    background-image: url("../images/trianguloRetangulo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
